@@ -14,3 +14,4 @@ volume = 4.0/3.0 * PI * radius * radius * radius;
 cout << "The spheres volume is: " << volume << endl;
 return 0;
 }
+g++ Lab01.cpp
