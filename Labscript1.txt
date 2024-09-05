@@ -1,0 +1,46 @@
+Script started on 2024-09-05 15:24:25+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="135" LINES="16"]
+[0;32m@chjohn5577 [0m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ G++[K[K[Kg++ Lab01.cpp 
+[0;32m@chjohn5577 [0m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ ./a.out[C[C[C[C[C[C[C[C
+Enter the radius of a sphere: 3.142     50
+The spheres volume is: 523599
+[0;32m@chjohn5577 [0m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ ./a.outg++ Lab01.cpp [7P./a.out[K./a.outg++ Lab01.cpp [7P./a.outg++ Lab01.cpp [7P./a.out
+Enter the radius of a sphere: -896
+The spheres volume is: -3.01309e+09
+[0;32m@chjohn5577 [0m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ ./a.out[K./a.out
+Enter the radius of a sphere: .00000001
+The spheres volume is: 4.18879e-24
+[0;32m@chjohn5577 [0m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ ./a.out[K./a.outg++ Lab01.cpp 
+[01m[KLab01.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KLab01.cpp:11:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcin[m[K’
+   11 | cout << "Enter the radius of a sphere: "
+      |                                         [01;31m[K^[m[K
+      |                                         [32m[K;[m[K
+   12 | [32m[Kcin[m[K >> radius;
+      | [32m[K~~~[m[K                                      
+[0;32m@chjohn5577 [1;31m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ g+++[K
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+[0;32m@chjohn5577 [1;31m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ g++ Lab01.cpp [K Lab01.cpp 
+[01m[KLab01.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KLab01.cpp:11:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+   11 | [01;31m[Kcout[m[K << "Enter the radius of a sphere: ";
+      | [01;31m[K^~~~[m[K
+[01m[KLab01.cpp:6:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    5 | #include <iomanip>
+  +++ |+[32m[K#include <iostream>[m[K
+    6 | using namespace std;
+[01m[KLab01.cpp:12:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcin[m[K’ was not declared in this scope
+   12 | [01;31m[Kcin[m[K >> radius;
+      | [01;31m[K^~~[m[K
+[01m[KLab01.cpp:12:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cin[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[0;32m@chjohn5577 [1;31m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ g++ Lab01.cpp [Kg++ Lab01.cpp 
+[01m[KLab01.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KLab01.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvolume[m[K’ was not declared in this scope; did you mean ‘[01m[Kvolme[m[K’?
+   13 | [01;31m[Kvolume[m[K = 4.0/3.0 * PI * radius * radius * radius;
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kvolme[m[K
+[0;32m@chjohn5577 [1;31m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ g++ Lab01.cpp 
+[0;32m@chjohn5577 [0m➜ [1;34m/workspaces/St-Cloud-State-Ass [0;36m([1;31mAssignment-01[0;36m) [0m$ exit
+exit
+
+Script done on 2024-09-05 15:35:20+00:00 [COMMAND_EXIT_CODE="0"]
